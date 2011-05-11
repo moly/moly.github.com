@@ -1,0 +1,7 @@
+---
+layout: flat
+title: Home
+---
+h1. What's new?
+
+Hi!
