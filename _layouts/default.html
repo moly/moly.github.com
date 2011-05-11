@@ -3,27 +3,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <title>moly - {{ page.title}}</title>
-    <meta name="author" content="Thomas Weston" />
-    <meta name="description" content="Thomas Weston's online game programming portfolio" />
+    <title>BecomingAweso.me - {{ page.title}}</title>
+    <meta name="author" content="Ryan Clough" />
+    <meta name="description" content="The personal website of Ryan Clough. Contains blogs about code, dance, and music" />
     <link rel="stylesheet" type="text/css" href="/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    {% if page.category == "music" %}<script type="text/javascript" src="/media/js/swfobject/swfobject.js"></script>
+    <script type="text/javascript" src="/media/js/audio-player/audio-player.js"></script>
+    <script type="text/javascript">AudioPlayer.setup("/media/js/audio-player/player.swf",{width: 290});</script>{% endif %}
 </head>
 <body>
     <div class="main">
         <div id="logo">
             <h1>
-                <a href="/">Thomas<span class="shade">Weston</span></a>
+                <a href="/">Becoming<span class="shade">Aweso</span>.me</a>
             </h1>
         </div>
         <div id="box">
             <div id="nav">
                 <ul>
                     <li> <a href="/">/home</a></li>
-                    <li> <a href="/cv">/cv</a></li>
-                    <li> <a href="/projects">/projects</a></li>
                     <li> <a href="/blog">/blog</a></li>
-                    <li> <a href="/contact">/contact</a></li>
+                    <li> <a href="/hobbies">/hobbies</a></li>
+                    <li> <a href="/about">/about</a></li>
+                    <li> <a href="http://ryan.is.becomingaweso.me">/friends</a></li>
                 </ul>
             </div>
 
@@ -33,5 +36,16 @@
 
     </div>
 
+    <!--Google Analytics Shit -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-12591835-1");
+            pageTracker._setDomainName(".becomingaweso.me");
+            pageTracker._trackPageview();
+        } catch(err) {}</script>
 </body>
-</html> 
+</html>    
