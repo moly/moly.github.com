@@ -1,0 +1,33 @@
+---
+layout: flat
+title: Projects
+---
+h1. Projects
+
+These are the various projects I have worked on, both during my education and in my free time. Click on any of the screenshots to find out more about that game.
+
+Jump to language: "AS3":#as3, "C#":#csharp, "Java":#java, "C++":#cplusplus
+
+h2(#as3). ActionScript 3
+
+"!warp/warp1.png!":warp
+
+"!gorillasonline/gorillas.png!":gorillasonline
+
+<br>
+
+h2(#csharp). C#
+
+"!downbeat/downbeat.png!":downbeat
+
+<br>
+
+h2(#java). Java
+
+"!trackandfield/trackandfield.png!":trackandfield
+
+<br>
+
+h2(#cplusplus). C++
+
+"!terrain/terrain.png!":terrain

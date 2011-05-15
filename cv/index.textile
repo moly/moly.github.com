@@ -1,0 +1,49 @@
+---
+layout: flat
+title: cv
+---
+h1. CV
+
+h2. Work History
+
+*(med)Systems Tester*  -  i-design  -  Jan 2011 to Feb 2011
+
+This was a temporary placement which lasted for approximately three weeks. I worked within a small team that was tasked with finding faults in software before its release.
+
+* Involved working with fellow system testers and development team in order to decide relevant tests and report results.
+* Demonstrated ability to work to a deadline by completing all assigned tests on time.
+* Gained experience of working both on my own and within a group.
+
+
+h2. Education
+
+*(med)University of Abertay Dundee*  -  Sept 2007 to June 2011
+
+* BSc Computer Games Technology
+
+
+*(med)Aylesford School and Language College*  -  Sept 2005 to June 2007
+
+* A-Levels in Maths, Physics and I.C.T.
+
+
+h2. Skills/Experience
+
+I have built up experience with various languages and technologies, both through my education and personal interest. These include:
+
+* C++
+* C#, XNA
+* Java, J2ME
+* ActionScript 3, Flash
+
+
+h2. References
+
+Available on request.
+
+<br>
+
+Download this cv:
+"Microsoft Word":cv.doc
+"OpenOffice":cv.odt
+"PDF":cv.pdf

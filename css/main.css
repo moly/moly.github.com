@@ -1,208 +1,179 @@
-/**
- * main.less
- *
- * @Author Ryan M. Clough
- *
- * CSS for BecomingAweso.me
- */
-
-// Color Pallette
-@white: #FFF;
-@dark-gray: #3A3A3A;
-@med-gray: #575757;
-@light-gray: #7F7F7F;
-@blue: #0080FF;
-
-// Font Sizes (em only)
-@logo: 1.8em;
-@nav: 2.2em;
-@content: 0.8em;
-
-// Widths and spacings
-@pagewidth: 87em;
-@navwidth: 5em;
-@midspacing: @nav*@navwidth + 3;
-@logospace:2em;
-
-/* Links */
-
 a {
-    color:@med-gray;
-    text-decoration:none;
+  color: #575757;
+  text-decoration: none;
 }
-a:hover {
-    color:@light-gray;
+a:hover { color: #7f7f7f; }
+html, body {
+  background: #ffffff;
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
 }
-
-
-/* Main rules for the site */
-html,body {
-    background:@white;
-    font-family: "DejaVu Sans", "Bitstream Vera Sans", "Helvetica", Arial, sans-serif;
-    font-size: 12px;
+html {
+  overflow-y: scroll;
+  margin-bottom: 8em;
 }
-
-html { 
-    overflow-y: scroll;
-    margin-bottom:8em;
-}
-
 .main {
-    width:@pagewidth;
-    margin:0 auto;
-
-    .med {
-        color:@med-gray;
-        font-weight:700;
-    }
-    
-    .light {
-        color:@med-gray;
-        font-size:0.8em;
-    }
-
-    /* Logo */
-
-    #logo {
-        margin-top:1em;
-        margin-left:@midspacing;
-        margin-bottom:@logospace;
-
-        h1, h1 a,h1 a:hover {
-            font-size:@logo;
-            letter-spacing:-0.05em;
-            font-weight:lighter;
-            color:@blue;
-            text-decoration:none;
-
-            .shade {
-                color:@med-gray + #111;
-            }
-        }
-
-    }
-
-    #box {
-        /* Navigation pane */
-
-        #nav {
-            float:left;
-            font-size:@nav;
-            width:@navwidth;
-            line-height:1.3em;
-
-            ul {
-                text-align:right;
-                list-style-type:none;
-            }
-        }
-
-        /* content */
-
-        #content {
-            margin-right:@midspacing;
-            margin-left:@midspacing;
-            padding-top:0.5em;
-            margin-bottom:1em;
-
-            a {
-                color:@blue;
-            }
-
-            a:hover {
-                text-decoration:underline;
-            }
-
-            h1,h2,h3,h4,h5,h6 {
-                a {
-                    color:inherit;
-                    text-decoration:none;
-                }
- 
-                a:hover {
-                    color:@blue;
-                    text-decoration:none;
-                }
-           }
-
-            ul {
-                margin-bottom:2em;
-                font-size:1.2em;
-                color:@med-gray;
-                ul {
-                    margin-left:2em;
-                    margin-bottom:0em;
-                    font-size:1em;
-                }
-           }
-
-            br {
-                line-height:3em;
-            }
-
-            h1 { //Title
-                font-size:2.5em;
-                font-weight:500;
-                color:@dark-gray;
-            }
-
-            h2 { // subtitle
-                font-size:1.5em;
-                color:@light-gray;
-                margin-bottom:1em;
-
-                .right {
-                    text-align:right;
-                }
-            }
-
-            h3 { // content title
-                font-size:2em;
-                color:@med-gray;
-                margin-bottom:0.5em;
-            }
-
-            h4 { // content title 2
-                font-size:1.5em;
-                color:@med-gray;
-                margin-bottom:0.5em;
-            }
-
-            h5 { // content title/prev. blog title
-                color:@light-gray;
-                margin-bottom:0.5em;
-                font-size:1.2em;
-            }
-
-            p { // content
-                margin-bottom:1em;
-                line-height:1.5em;
-                font-size:1.2em;
-                color:@med-gray;
-            }
-
-            #landing {
-                h1 {
-                    margin-bottom:0.5em;
-                }
-
-                br {
-                    line-height:1em;
-                }
-
-                #display {
-                    h2, h3, h4, h6 {
-                        margin-bottom:0em;
-                    }
-                }
-
-            }
-            #disqus_thread {
-                margin-top:5em;
-                h3 {
-                    font-size:1em;
-                }
-            }
-        }
-    }
+  width: 87em;
+  margin: 0 auto;
 }
+.main .med {
+  color: #575757;
+  font-weight: 700;
+}
+.main .light {
+  color: #575757;
+  font-size: 0.8em;
+}
+.main #logo {
+  margin-top: 1em;
+  margin-left: 14em;
+  margin-bottom: 2em;
+}
+.main #logo h1 {
+  font-size: 1.8em;
+  letter-spacing: -0.05em;
+  font-weight: lighter;
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #logo h1 .shade { color: #686868; }
+.main #logo h1 a {
+  font-size: 1.8em;
+  letter-spacing: -0.05em;
+  font-weight: lighter;
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #logo h1 a .shade { color: #686868; }
+.main #logo h1 a:hover {
+  font-size: 1.8em;
+  letter-spacing: -0.05em;
+  font-weight: lighter;
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #logo h1 a:hover .shade { color: #686868; }
+.main #box #nav {
+  float: left;
+  font-size: 2.2em;
+  width: 5em;
+  line-height: 1.3em;
+}
+.main #box #nav ul {
+  text-align: right;
+  list-style-type: none;
+}
+.main #box #content {
+  margin-right: 14em;
+  margin-left: 14em;
+  padding-top: 0.5em;
+  margin-bottom: 1em;
+}
+.main #box #content a { color: #0080ff; }
+.main #box #content a:hover { text-decoration: underline; }
+.main #box #content h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+.main #box #content h1 a:hover {
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #box #content h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.main #box #content h2 a:hover {
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #box #content h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.main #box #content h3 a:hover {
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #box #content h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+.main #box #content h4 a:hover {
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #box #content h5 a {
+  color: inherit;
+  text-decoration: none;
+}
+.main #box #content h5 a:hover {
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #box #content h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+.main #box #content h6 a:hover {
+  color: #0080ff;
+  text-decoration: none;
+}
+.main #box #content ul {
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  color: #575757;
+  text-align: left;
+  list-style-type: disc;
+  list-style-position:inside;
+}
+.main #box #content ul ul {
+  margin-left: 2em;
+  margin-bottom: 0em;
+  font-size: 1em;
+}
+.main #box #content table {
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+}
+.main #box #content br { line-height: 3em; }
+.main #box #content h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+.main #box #content h2 {
+  font-size: 1.5em;
+  color: #7f7f7f;
+  margin-bottom: 1em;
+}
+.main #box #content h2 .right { text-align: right; }
+.main #box #content h3 {
+  font-size: 2em;
+  color: #575757;
+  margin-bottom: 0.5em;
+}
+.main #box #content h4 {
+  font-size: 1.5em;
+  color: #575757;
+  margin-bottom: 0.5em;
+}
+.main #box #content h5 {
+  color: #7f7f7f;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+.main #box #content p {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color: #575757;
+}
+.main #box #content #landing h1 { margin-bottom: 0.5em; }
+.main #box #content #landing br { line-height: 1em; }
+.main #box #content #landing #display h2 { margin-bottom: 0em; }
+.main #box #content #landing #display h3 { margin-bottom: 0em; }
+.main #box #content #landing #display h4 { margin-bottom: 0em; }
+.main #box #content #landing #display h6 { margin-bottom: 0em; }
+.main #box #content #disqus_thread { margin-top: 5em; }
+.main #box #content #disqus_thread h3 { font-size: 1em; }
