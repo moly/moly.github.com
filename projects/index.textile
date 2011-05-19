@@ -2,7 +2,7 @@
 layout: flat
 title: Projects
 ---
-h1. Projects
+h1(#top). Projects
 
 These are the various projects I have worked on, both during my education and in my free time. Click on any of the screenshots to find out more about that game.
 
@@ -14,11 +14,15 @@ h2(#as3). ActionScript 3
 
 "!gorillasonline/gorillas.png!":gorillasonline
 
+"back to top":#top
+
 <br>
 
 h2(#csharp). C#
 
 "!downbeat/downbeat.png!":downbeat
+
+"back to top":#top
 
 <br>
 
@@ -26,8 +30,12 @@ h2(#java). Java
 
 "!trackandfield/trackandfield.png!":trackandfield
 
+"back to top":#top
+
 <br>
 
 h2(#cplusplus). C++
 
 "!terrain/terrain.png!":terrain
+
+"back to top":#top
