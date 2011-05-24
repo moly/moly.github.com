@@ -122,6 +122,7 @@ html {
 .main #box #content ul {
   margin-bottom: 2em;
   font-size: 1.2em;
+  line-height: 1.5em;
   color: #575757;
   text-align: left;
   list-style-type: disc;
@@ -144,7 +145,7 @@ html {
 }
 .main #box #content h2 {
   font-size: 1.5em;
-  color: #7f7f7f;
+  color: #575757;
   margin-bottom: 1em;
 }
 .main #box #content h2 .right { text-align: right; }
