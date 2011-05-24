@@ -13,8 +13,6 @@ Warp is a short puzzle/platform game in which the player must reach the end of e
 
 Warp was "originally created in GameMaker":http://www.yoyogames.com/games/140947-warp, and I was commissioned by the authors to write a Flash version. It uses the opensource game framework flixel, which allowed me to complete the project in just under a month.
 
-Press "m" to unmute sounds.
-
 h2. Technical Details
 
 *Language:* ActionScript 3.0
