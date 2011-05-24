@@ -5,10 +5,7 @@ title: Warp
 
 h1. Warp
 
-p=. <object width="480" height="272"><param name="movie"
-value="Warp.swf"></param><embed
-src="Warp.swf" type="application/x-shockwave-flash"
-width="480" height="272"></embed></object>
+p=. !warp1.png!
 
 h2. Description
 

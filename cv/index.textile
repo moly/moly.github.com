@@ -6,7 +6,7 @@ h1. CV
 
 h2. Work History
 
-*(med)Systems Tester*  -  i-design  -  Jan 2011 to Feb 2011
+*(med)Systems Tester*  -  *(med)i-design*  -  Jan 2011 to Feb 2011
 
 This was a temporary placement which lasted for approximately three weeks. I worked within a small team that was tasked with finding faults in software before its release.
 
@@ -40,8 +40,6 @@ I have built up experience with various languages and technologies, both through
 h2. References
 
 Available on request.
-
-<br>
 
 Download this cv:
 "Microsoft Word":cv.doc
