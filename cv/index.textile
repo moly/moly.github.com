@@ -6,6 +6,11 @@ h1. CV
 
 h3. Work History
 
+*(med)Night Shift Worker*  -  *(med)Sainsburys*  -  Oct 2011 to present
+
+* Gained valuable experience working in a team based environment.
+
+
 *(med)Systems Tester*  -  *(med)i-design*  -  Jan 2011 to Feb 2011
 
 This was a temporary placement which lasted for approximately three weeks. I worked within a small team that was tasked with finding faults in software before its release.
@@ -31,10 +36,17 @@ h3. Skills/Experience
 
 I have built up experience with various languages and technologies, both through my education and personal interest. These include:
 
+* ActionScript 3,
+	- FlashDevelop, FlashBuilder 4, Flash CS5
+	
 * C++
-* C#, XNA
-* Java, J2ME
-* ActionScript 3, Flash
+	- Visual Studio, OpenGL
+	
+* Java
+	- Eclipse, Netbeans, Android, J2ME
+	
+* C#
+	- Visual Studio, XNA
 
 
 h3. References
