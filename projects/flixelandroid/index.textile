@@ -1,0 +1,22 @@
+---
+layout: flat
+title: flixel-android
+---
+
+h1. flixel-android
+
+p=. !flixelandroid.png!
+
+h2. Description
+
+flixel-android is an attempt to create a native Java/Android port of the popular 2d game making library "flixel":http://flixel.org. It is an opensource project and is currently being worked on by myself and another fellow contributor. We are building flixel-android on top of the powerful "libgdx":http://libgdx.badlogicgames.com/ framework which will allow apps to also be deployed to Windows, Mac and Linux. The project is still very much a work in a progress, an apk demonstrating the current features is available "here":flixel-examples-android.apk.
+
+h2. Source Code
+
+"Google code":http://code.google.com/p/flixel-android/
+
+h2. Technical Details
+
+*Language:* Java
+*Tools:* Eclipse, Android SDK, TortoiseSVN
+*Libraries:* "libgdx":http://libgdx.badlogicgames.com/, "flixel":http://flixel.org

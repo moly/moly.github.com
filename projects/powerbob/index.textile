@@ -12,7 +12,7 @@ width="768" height="512"></embed></object>
 
 h2. Description
 
-Power Bob is a sidescrolling platformer game. It features 25 levels across 5 different worlds, boss battles, multiple weapons and a wide variety of enemies.
+Power Bob is a sidescrolling action platformer game. It features 25 levels across 5 different worlds, boss battles, multiple weapons and a wide variety of enemies.
 
 Press 'm' to unmute the game.
 
