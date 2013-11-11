@@ -8,13 +8,16 @@ h3. Skills/Experience
 
 I have built up experience with various languages and technologies, both through my education and personal interest. These include:
 
-(med)Proficient
+*(med)Proficient*
+
 * ActionScript 3, FlashDevelop, FlashBuilder 4, Flash CS5
 * Java, Eclipse, Netbeans, Android, J2ME
 * git, svn
 
-(med)Intermediate
+*(med)Intermediate*
+
 * C#, Visual Studio, XNA
+
 
 h3. Work History
 
