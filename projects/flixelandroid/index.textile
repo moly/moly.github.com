@@ -1,6 +1,6 @@
 ---
 layout: flat
-title: flixel-android
+title: flixel-gdx
 ---
 
 h1. flixel-gdx

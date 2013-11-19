@@ -11,9 +11,13 @@ Download video: "mp4 ==(4 MB)==":trackandfield.mp4
 
 h2. Description
 
-This is a basic International Track and Field clone I made for the Mobile Programming module of my university course. It features one event, the 100m sprint, and a local highscore table so you can compete against your own best times. The player runs by pressing the left and right directional keys on the phone as rapidly as possible.
+This is a basic International Track and Field clone I made for the Mobile Programming module of my university course. It features one event, the 100m sprint, and a local highscore table so you can compete against your own best times. The player runs by pressing the left and right directional keys on the phone as rapidly as possible. Because of time constraints, the game was not made to work on multiple resolutions and will only display correctly on a 320 x 480 screen. 
 
-The emulator found in the "Nokia Series 40 6th Edition SDK":http://www.forum.nokia.com/Library/Tools_and_downloads/Other/Series_40_platform_SDKs/ is required in order to properly play this game.
+The emulator found in the "Nokia Series 40 6th Edition SDK":http://developer.nokia.com/Develop/asha/java/tools/Series_40_platform_SDKs/ is required in order to properly play this game.
+
+h2. Source Code
+
+"github":https://github.com/moly/International-Track-And-Field
 
 h2. Technical Details
 
