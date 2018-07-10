@@ -3,20 +3,20 @@ layout: flat
 title: Terrain
 ---
 
-h1. Terrain
+# Terrain
 
-p=. !terrain.png!
+p=. ![terrain](terrain.png)
 
-h2. Description
+## Description
 
 This is a basic random terrain generator, created for a third year 3D Graphics Programming module. It uses a fault formation technique to generate the inital heightmap, and then an erorsion filter to simulate natural terrain erosion. It uses a framework that was provided by the university.
 
-h2. Source Code
+## Source Code
 
-"github":https://github.com/moly/Terrain
+[github](https://github.com/moly/Terrain)
 
-h2. Technical Details
+## Technical Details
 
-*Language:* C++
-*Tools:* Visual Studio, Photoshop
-*Libraries:* OpenGL
+**Language:** C++
+**Tools:** Visual Studio, Photoshop
+**Libraries:** OpenGL

@@ -2,7 +2,7 @@
 layout: flat
 title: Blog Posts
 ---
-h1. All Posts:
+# All Posts:
 {% for post in site.posts %} {% if post.section == "blog" %}
 <div id="display">
 

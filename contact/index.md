@@ -3,6 +3,6 @@ layout: flat
 title: Contact
 ---
 
-h1. Contact
+# Contact
 
 email: tsweston@gmail.com

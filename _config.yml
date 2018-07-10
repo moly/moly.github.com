@@ -3,5 +3,3 @@ permalink: /:categories/:title
 exclude:
 - less
 - README
-plugins:
-- jekyll-textile-converter
