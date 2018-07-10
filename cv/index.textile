@@ -6,50 +6,35 @@ h1. CV
 
 h3. Skills/Experience
 
-I have built up experience with various languages and technologies, both through my education and personal interest. These include:
-
 *(med)Proficient*
-* ActionScript 3, FlashDevelop, FlashBuilder 4, Flash CS5
-* Java, Eclipse, Netbeans, Android, J2ME
+* Java, Eclipse, IntelliJ
 * git, svn
+* Object orientated programming techniques
 
 *(med)Intermediate*
-* C#, Visual Studio, XNA
+* python
+* Bash
+* gradle
 
 
 h3. Work History
 
-*(med)Night Shift Worker*  -  *(med)Sainsburys*  -  Oct 2011 to present
+*(med)Software Developer*  -  *(med)Greentube UK*  -  Jan 2014 to present
 
-* Gained valuable experience working in a team based environment.
-
+Currently working as a Java software developer creating casino games for online markets. I work within a small team to scope, design, produce, and maintain software solutions to game concepts. The role often requires moving between and managing multiple projects while keeping to a high standard of clean and maintainable code. All projects involve extensively working with third parties to make effective use of their SDKs and platforms.
 
 *(med)Systems Tester*  -  *(med)i-design*  -  Jan 2011 to Feb 2011
 
-This was a temporary placement which lasted for approximately three weeks. I worked within a small team that was tasked with finding faults in software before its release.
-
-* Role involved working with fellow system testers and development team in order to decide relevant tests and report results.
-* Demonstrated ability to work to a deadline by completing all assigned tests on time.
-* Gained experience of working both on my own and within a group.
+This was a temporary position which lasted for approximately three weeks. I worked with other testers to find faults in a large software project before its release. The role involved working with the software teams to decide relevant tests and report results.
 
 
 h3. Education
 
 *(med)University of Abertay Dundee*  -  Sept 2007 to June 2011
 
-* BSc Computer Games Technology
-
-
-*(med)Aylesford School and Language College*  -  Sept 2005 to June 2007
-
-* A-Levels in Maths, Physics and I.C.T.
-
-
-h3. References
-
-Available on request.
+BSc Computer Games Technology
 
 Download this cv:
-    "Microsoft Word":ThomasWestonCV.doc
+    "Microsoft Word":ThomasWestonCV.docx
     "OpenOffice":ThomasWestonCV.odt
     "PDF":ThomasWestonCV.pdf

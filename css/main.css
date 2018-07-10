@@ -33,7 +33,7 @@ html {
   font-size: 1.8em;
   letter-spacing: -0.05em;
   font-weight: lighter;
-  color: #0080ff;
+  color: #575757;
   text-decoration: none;
 }
 .main #logo h1 .shade { color: #686868; }
@@ -41,7 +41,7 @@ html {
   font-size: 1.8em;
   letter-spacing: -0.05em;
   font-weight: lighter;
-  color: #0080ff;
+  color: #575757;
   text-decoration: none;
 }
 .main #logo h1 a .shade { color: #686868; }
@@ -49,7 +49,7 @@ html {
   font-size: 1.8em;
   letter-spacing: -0.05em;
   font-weight: lighter;
-  color: #0080ff;
+  color: #575757;
   text-decoration: none;
 }
 .main #logo h1 a:hover .shade { color: #686868; }
